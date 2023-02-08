@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentRegistration</title>
+</head>
+<body>
+    <h2>studentRegistration</h2>
+    <fieldset>
+        <legend><span>Student Registration Form</span></legend>
+   
+    <form>
+        
+       
+        
+        <!-- for comment shortcut key is cnt+/ -->
+        
+
+        <table>
+            <tr>
+                <td>
+                    <label>First Name</label></td>
+                   <td> <input type="text" maxlength="10" required autofocus placeholder="name">
+                </td>
+            </tr>
+            <tr>
+                <!-- attribute is meant to be additional information -->
+                <!-- autofocus is for focus that tab first -->
+                <td> <label>Last Name</label></td>
+                <td><input tyep="text" placeholder="last name"></td>
+
+            </tr>
+            <tr>
+                <td><label>Age</label></td>
+                <td><input type="number" max="99"></td>
+            </tr>
+            <tr>
+                <td><label>Mobile Number</label></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td><label>Password</label></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td><label>Date of Birth</label></td>
+                <td><input type="date"></td>
+            </tr>
+            <tr><td><label>Country</label></td>
+            <td><input type="text" value="india" readonly></td></tr>
+                <td><label>Select Degree</label></td>
+                <td><select><option>MCA</option>
+                    <option>BBA</option>
+                    <option>BE</option>
+                    <option>MCS</option>
+                    <option>BSC</option></select></td>
+            </tr>
+            <tr>
+                <td><label>Select Gender</label></td>
+                <td><input type= "radio"name="Gender"><label>male</label>
+                <input type= "radio"name="Gender"><label>female</label>
+                <input type= "radio"name="Gender"><label>Others</label> </td>   
+            </tr>
+            <tr>
+                <td><label>Select your hobby</label></td>
+                <td><input type="checkbox"><lable>Reading</lable>
+                    <input type="checkbox"><lable>Travelling</lable>
+                    <input type="checkbox"><lable>Singing</lable>
+                    <input type="checkbox"><lable>Watching Movies</lable></td>
+            </tr>
+            <tr>
+                <td><label>Upload Profile photo</label></td>
+                <td><input type="file" ></td>
+            </tr>
+            <tr>
+                <td><label>Marksheets</label> </td>
+                <td><input type="file" multiple></td>
+            </tr>
+            <tr>
+                <td><lable>Present Address</lable></td>
+                <td><textarea rows="8" cols="50"></textarea></td>
+            </tr>
+            <tr>
+                <td><button type="submit">submit</button></td>
+                <td><button type="reset">Reset</button></td>
+            </tr>
+            
+        </table>
+    </form>
+</fieldset>
+</body>
+</html>

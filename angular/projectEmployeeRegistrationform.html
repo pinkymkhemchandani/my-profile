@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration Form</title>
+</head>
+<body>
+    <fieldset>
+        <legend>
+            <span>Employee Registration Form
+            </span>
+        </legend>
+        <table>
+            <tr>
+                <td><label>Full Name</label></td>
+                <td><input type="text" placeholder="Name"required autofocus</td>
+            </tr>
+            <tr>
+                <td><label>Email Address</label></td>
+                <td><input type="text"placeholder="ex@gmail.com"></td>
+            </tr>
+            <tr>
+                <td><label>Contact number</label></td>
+                <td><input type="number"placeholder="******">
+            </tr>
+            <tr>
+                <td><label>Profile Photo</label></td>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+                <td><label>BirthDate</label></td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td><label>Password</label></td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td><label>Gender</label></td>
+                <td><label>MALE</label><input type="radio"name="Gender">
+                <label>FEMALE</label><input type="radio" name="Gender"></td>
+            </tr>
+            <tr><td><label>Marital Status</label></td>
+            <td><input type="radio" name="Marital Status"><label>YES</label>
+        <input type="radio" name="Marital Status"><label>NO</label></td></tr>
+        <tr><td><label>Known Tool and Technology</label></td>
+        <td><input type="checkbox" name="Known Tool and Technology"><label>Python</label>
+            <input type="checkbox" name="Known Tool and Technology"><label>React</label>
+            <input type="checkbox" name="Known Tool and Technology"><label>Angular</label>
+            <input type="checkbox" name="Known Tool and Technology"><label>Java</label>
+            <input type="checkbox" name="Known Tool and Technology"><label>Jenkin</label>
+            <input type="checkbox" name="Known Tool and Technology"><label>GIT</label>
+            <input type="checkbox" name="Known Tool and Technology"><label>Database</label></td></tr>
+
+            <tr><td><label>Profile</label></td>
+            <td><select><option>UI Developer</option>
+            <option>Java Developer</option>
+        <option>Python Developer</option></select></td></tr>
+
+        <tr><td><label>Country</label></td>
+        <td><input type="text" value="india" readonly></td></tr>
+
+        <tr>
+            <td><label>Present Address</label></td>
+            <td><textarea rows="5" cols="50"></textarea></td>
+        </tr>
+        </table>
+        <button>SUBMIT</button>
+        <button>RESET</button>
+    </fieldset>
+</body>
+</html>
